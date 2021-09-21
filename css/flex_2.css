@@ -252,3 +252,109 @@ footer input:hover {
     background-color: #5db7de;
     color: #07020d;
 }
+
+
+/* Formulario de Contacto */
+#contacto {
+    min-height: 81vh;
+    display: flex;
+}
+
+#contacto form {
+    width:220px;
+    margin: 0 auto;
+}
+
+#contacto input {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin:0px 0px 10px 0px;
+    border: 2px solid #716a5c;
+    border-radius: 7px;
+    width:200px;
+}
+
+#contacto textarea {
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #716a5c;
+    border-radius: 7px;
+    padding:5px;
+    width: 210px;
+    height: 100px;
+}
+
+#contacto input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #5db7de;
+    border-radius: 7px;
+}
+
+#contacto select {
+    font-family: 'Montserrat', sans-serif;
+    padding:10px;
+}
+
+#contacto .submit {
+    width:224px;
+    background-color:#5db7de;
+    border-radius: 100px;
+}
+
+#contacto .checkbox, .radio {
+    margin:5px;
+    padding:0;
+    width: auto;
+}
+
+/* Libros */
+#libro {
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.izquierda {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.izquierda img {
+    min-width: 247px;
+    margin: 1em;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 1em;
+    max-width: 550px;
+}
+
+.derecha h1 {
+    margin: 0;
+}
+
+.derecha a:link {
+    display: block;
+    padding: 0.75em;
+    border: 0.25em solid #5db7de;
+    border-radius: 1em;
+    margin-bottom: 0.75em;
+    color: #07020d;
+}
+
+.derecha a:visited {
+    color: #07020d;
+    border: 0.25em solid #5db7de;
+}
+
+.derecha a:hover {
+    color: #f1e9db;
+    border: 0.25em solid #5db7de;
+    background-color: #5db7de;
+}
+
+.derecha a:active {
+    border: 0.25em solid #5db7de;
+}
